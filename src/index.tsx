@@ -6,7 +6,7 @@ import { ChakraProvider } from '@chakra-ui/react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import { RecoilRoot } from 'recoil'
 import { Atoms } from './examples/Atoms'
-import { Selectors } from './examples/Selectors'
+import { Selectors } from './examples/selectors/Selectors'
 import { NotFound } from './NotFound'
 
 render(
